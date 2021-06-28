@@ -18,7 +18,7 @@ and many too) and Baidu Search Engine.
 Senginta was originally developed by me alone. So, if you want to contribute for
 support another search engine, let's fork this Repository. 
 
-Senginta provides beta Python.
+Senginta provides alpha JavaScript.
 
 ## Install
 
