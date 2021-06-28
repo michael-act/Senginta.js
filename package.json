@@ -4,15 +4,14 @@
   "description": "All in one Search Engine Scrapper for used by API or Node JS library. It's Free & Lightweight!",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests/google_video.test.js --timeout 30000"
+    "test": "mocha tests/*.test.js --timeout 30000"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/michael-act/Senginta.js.git"
   },
   "bugs": {
-    "url": "https://github.com/michael-act/Senginta.js/issues",
-    "email": "doexploit22@gmail.com"
+    "url": "https://github.com/michael-act/Senginta.js/issues"
   },
   "keywords": [
     "search-engine",
@@ -26,9 +25,6 @@
   ],
   "author": "Michael Abraham Chan Tulenan <michael.4ct@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/michael-act/Senginta.js/issues"
-  },
   "homepage": "https://github.com/michael-act/Senginta.js#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.10",
