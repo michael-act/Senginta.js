@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  request:
+    image: node:14.17.1
+    working_dir: /data
+    volumes:
+      - ".:/data"
+    command: ./build.sh

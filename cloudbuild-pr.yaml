@@ -1,0 +1,7 @@
+steps:
+- id: Build
+  name: gcr.io/$PROJECT_ID/docker-compose
+  args:
+  - run
+  - --rm
+  - ${_MODULE}
